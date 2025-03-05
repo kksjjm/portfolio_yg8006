@@ -43,6 +43,11 @@ img {
     padding: 20px 0;
     position: relative;
     z-index: 100;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0); /* 완전 투명 */
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
 }
 
 .logo a {
