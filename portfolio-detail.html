@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail - VLND</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">VLND</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html" class="active">DESIGN</a></li>
+                    <li><a href="index.html">SCIENCE</a></li>
+                    <li><a href="index.html">AWARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Project Detail -->
+        <main class="project-detail">
+            <div class="project-header">
+                <h1 id="projectTitle">Project Title</h1>
+                <div class="project-meta">
+                    <p id="projectCategory">Category</p>
+                    <p id="projectYear">Year</p>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-description">
+                    <p id="projectDescription">Loading project description...</p>
+                </div>
+
+                <div class="project-stats">
+                    <div class="stat">
+                        <h3>CLIENT</h3>
+                        <p id="projectClient">Client Name</p>
+                    </div>
+                    <div class="stat">
+                        <h3>SERVICE</h3>
+                        <p id="projectService">Design Service</p>
+                    </div>
+                    <div class="stat">
+                        <h3>INDUSTRY</h3>
+                        <p id="projectIndustry">Industry Type</p>
+                    </div>
+                </div>
+
+                <div class="project-gallery">
+                    <!-- Gallery images will be loaded dynamically -->
+                    <div class="gallery-image full-width">
+                        <img id="mainImage" src="" alt="Project Main Image">
+                    </div>
+
+                    <div class="gallery-grid">
+                        <!-- Images will be added via JavaScript -->
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h2>Design Process</h2>
+                        <p id="designProcess">Loading design process...</p>
+                    </div>
+                    <div class="detail-section">
+                        <h2>Technical Specifications</h2>
+                        <ul id="techSpecs">
+                            <!-- Specs will be added via JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-footer">
+                    <div class="nav-projects">
+                        <a href="#" class="prev-project">Previous Project</a>
+                        <a href="#" class="next-project">Next Project</a>
+                    </div>
+                    <a href="index.html" class="back-to-projects">Back to Projects</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
